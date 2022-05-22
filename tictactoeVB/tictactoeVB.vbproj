@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>tictactoeVB</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>tictactoeVB.Form1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 

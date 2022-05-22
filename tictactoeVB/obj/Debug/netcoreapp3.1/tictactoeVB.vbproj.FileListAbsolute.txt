@@ -1,0 +1,16 @@
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.vbproj.AssemblyReference.cache
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.Form1.resources
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.vbproj.GenerateResource.cache
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.AssemblyInfoInputs.cache
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.AssemblyInfo.vb
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.vbproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\bin\Debug\netcoreapp3.1\tictactoeVB.exe
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\bin\Debug\netcoreapp3.1\tictactoeVB.deps.json
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\bin\Debug\netcoreapp3.1\tictactoeVB.runtimeconfig.json
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\bin\Debug\netcoreapp3.1\tictactoeVB.runtimeconfig.dev.json
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\bin\Debug\netcoreapp3.1\tictactoeVB.dll
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\bin\Debug\netcoreapp3.1\tictactoeVB.pdb
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.dll
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.pdb
+D:\Program Files (x86)\Microsoft Visual Studio\source\repos-1\tictactoeVB\tictactoeVB\obj\Debug\netcoreapp3.1\tictactoeVB.genruntimeconfig.cache
