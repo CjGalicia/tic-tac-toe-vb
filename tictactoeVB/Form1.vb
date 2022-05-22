@@ -98,7 +98,7 @@
     Public Function winner(ByVal Button1 As Button, ByVal Button2 As Button, ByVal Button3 As Button)
         If Button1.Text = "" Or Button2.Text = "" Or Button3.Text = "" Then
         Else
-            MessageBox.Show(Button1.Text.ToString + "Winner")
+            MessageBox.Show(Button1.Text.ToString + " Winner")
         End If
 
     End Function

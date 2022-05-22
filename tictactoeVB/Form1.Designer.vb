@@ -37,108 +37,122 @@ Partial Class Form1
         '
         'NorthWest
         '
+        Me.NorthWest.BackColor = System.Drawing.Color.LightBlue
         Me.NorthWest.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.NorthWest.Location = New System.Drawing.Point(57, 103)
         Me.NorthWest.Name = "NorthWest"
         Me.NorthWest.Size = New System.Drawing.Size(177, 160)
         Me.NorthWest.TabIndex = 0
-        Me.NorthWest.UseVisualStyleBackColor = True
+        Me.NorthWest.UseVisualStyleBackColor = False
         '
         'resetButton
         '
-        Me.resetButton.Location = New System.Drawing.Point(281, 612)
+        Me.resetButton.BackColor = System.Drawing.Color.LightBlue
+        Me.resetButton.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.resetButton.Location = New System.Drawing.Point(276, 616)
         Me.resetButton.Name = "resetButton"
         Me.resetButton.Size = New System.Drawing.Size(104, 38)
         Me.resetButton.TabIndex = 1
         Me.resetButton.Text = "RESET"
-        Me.resetButton.UseVisualStyleBackColor = True
+        Me.resetButton.UseVisualStyleBackColor = False
         '
         'North
         '
+        Me.North.BackColor = System.Drawing.Color.LightBlue
         Me.North.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.North.Location = New System.Drawing.Point(240, 103)
         Me.North.Name = "North"
         Me.North.Size = New System.Drawing.Size(177, 160)
         Me.North.TabIndex = 2
-        Me.North.UseVisualStyleBackColor = True
+        Me.North.UseVisualStyleBackColor = False
         '
         'NorthEast
         '
+        Me.NorthEast.BackColor = System.Drawing.Color.LightBlue
         Me.NorthEast.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.NorthEast.Location = New System.Drawing.Point(423, 103)
         Me.NorthEast.Name = "NorthEast"
         Me.NorthEast.Size = New System.Drawing.Size(177, 160)
         Me.NorthEast.TabIndex = 3
-        Me.NorthEast.UseVisualStyleBackColor = True
+        Me.NorthEast.UseVisualStyleBackColor = False
         '
         'West
         '
+        Me.West.BackColor = System.Drawing.Color.LightBlue
         Me.West.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.West.Location = New System.Drawing.Point(57, 269)
         Me.West.Name = "West"
         Me.West.Size = New System.Drawing.Size(177, 160)
         Me.West.TabIndex = 4
-        Me.West.UseVisualStyleBackColor = True
+        Me.West.UseVisualStyleBackColor = False
         '
         'Center
         '
+        Me.Center.BackColor = System.Drawing.Color.LightBlue
         Me.Center.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Center.Location = New System.Drawing.Point(240, 269)
         Me.Center.Name = "Center"
         Me.Center.Size = New System.Drawing.Size(177, 160)
         Me.Center.TabIndex = 5
-        Me.Center.UseVisualStyleBackColor = True
+        Me.Center.UseVisualStyleBackColor = False
         '
         'East
         '
+        Me.East.BackColor = System.Drawing.Color.LightBlue
         Me.East.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.East.Location = New System.Drawing.Point(423, 269)
         Me.East.Name = "East"
         Me.East.Size = New System.Drawing.Size(177, 160)
         Me.East.TabIndex = 6
-        Me.East.UseVisualStyleBackColor = True
+        Me.East.UseVisualStyleBackColor = False
         '
         'SouthWest
         '
+        Me.SouthWest.BackColor = System.Drawing.Color.LightBlue
         Me.SouthWest.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.SouthWest.Location = New System.Drawing.Point(57, 435)
         Me.SouthWest.Name = "SouthWest"
         Me.SouthWest.Size = New System.Drawing.Size(177, 160)
         Me.SouthWest.TabIndex = 7
-        Me.SouthWest.UseVisualStyleBackColor = True
+        Me.SouthWest.UseVisualStyleBackColor = False
         '
         'South
         '
+        Me.South.BackColor = System.Drawing.Color.LightBlue
         Me.South.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.South.Location = New System.Drawing.Point(240, 435)
         Me.South.Name = "South"
         Me.South.Size = New System.Drawing.Size(177, 160)
         Me.South.TabIndex = 8
-        Me.South.UseVisualStyleBackColor = True
+        Me.South.UseVisualStyleBackColor = False
         '
         'SouthEast
         '
+        Me.SouthEast.BackColor = System.Drawing.Color.LightBlue
         Me.SouthEast.Font = New System.Drawing.Font("Arial Narrow", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.SouthEast.Location = New System.Drawing.Point(423, 435)
         Me.SouthEast.Name = "SouthEast"
         Me.SouthEast.Size = New System.Drawing.Size(177, 160)
         Me.SouthEast.TabIndex = 9
-        Me.SouthEast.UseVisualStyleBackColor = True
+        Me.SouthEast.UseVisualStyleBackColor = False
         '
         'turnLabel
         '
         Me.turnLabel.AutoSize = True
-        Me.turnLabel.Font = New System.Drawing.Font("Arial Narrow", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.turnLabel.Location = New System.Drawing.Point(188, 35)
+        Me.turnLabel.BackColor = System.Drawing.Color.Transparent
+        Me.turnLabel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.turnLabel.ForeColor = System.Drawing.Color.Black
+        Me.turnLabel.Location = New System.Drawing.Point(174, 42)
         Me.turnLabel.Name = "turnLabel"
-        Me.turnLabel.Size = New System.Drawing.Size(229, 43)
+        Me.turnLabel.Size = New System.Drawing.Size(324, 43)
         Me.turnLabel.TabIndex = 10
-        Me.turnLabel.Text = "Current Player"
+        Me.turnLabel.Text = "Current Player: X"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.ClientSize = New System.Drawing.Size(671, 679)
         Me.Controls.Add(Me.turnLabel)
         Me.Controls.Add(Me.SouthEast)
