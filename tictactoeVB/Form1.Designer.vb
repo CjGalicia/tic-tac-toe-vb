@@ -32,6 +32,7 @@ Partial Class Form1
         Me.SouthWest = New System.Windows.Forms.Button()
         Me.South = New System.Windows.Forms.Button()
         Me.SouthEast = New System.Windows.Forms.Button()
+        Me.turnLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'NorthWest
@@ -124,11 +125,20 @@ Partial Class Form1
         Me.SouthEast.TabIndex = 9
         Me.SouthEast.UseVisualStyleBackColor = True
         '
+        'turnLabel
+        '
+        Me.turnLabel.AutoSize = True
+        Me.turnLabel.Location = New System.Drawing.Point(297, 38)
+        Me.turnLabel.Name = "turnLabel"
+        Me.turnLabel.Size = New System.Drawing.Size(0, 15)
+        Me.turnLabel.TabIndex = 10
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(671, 679)
+        Me.Controls.Add(Me.turnLabel)
         Me.Controls.Add(Me.SouthEast)
         Me.Controls.Add(Me.South)
         Me.Controls.Add(Me.SouthWest)
@@ -143,6 +153,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.Text = "Tic Tac Toe"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -156,4 +167,5 @@ Partial Class Form1
     Friend WithEvents SouthWest As Button
     Friend WithEvents South As Button
     Friend WithEvents SouthEast As Button
+    Friend WithEvents turnLabel As Label
 End Class
