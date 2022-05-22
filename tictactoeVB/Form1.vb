@@ -36,6 +36,8 @@
     Public Function PrintButtonText(ByVal btn As Button)
         If btn.Text = "" Then
             btn.Text = currentPlayer
+            CheckResult()
+
             ShowTurn()
         End If
         Return True
@@ -72,4 +74,32 @@
     Private Sub SouthEast_Click(sender As Object, e As EventArgs) Handles SouthEast.Click
         PrintButtonText(SouthEast)
     End Sub
+
+    Public Function CheckResult()
+        If NorthWest.Text = North.Text And North.Text = NorthEast.Text Then
+            winner(NorthWest, North, NorthEast)
+        ElseIf NorthWest.Text = Center.Text And Center.Text = SouthEast.Text Then
+            winner(NorthWest, Center, SouthEast)
+        ElseIf West.Text = Center.Text And Center.Text = East.Text Then
+            winner(West, Center, East)
+        ElseIf SouthWest.Text = South.Text And South.Text = SouthEast.Text Then
+            winner(SouthWest, South, SouthEast)
+        ElseIf NorthWest.Text = West.Text And West.Text = SouthWest.Text Then
+            winner(NorthWest, West, SouthWest)
+        ElseIf North.Text = Center.Text And Center.Text = South.Text Then
+            winner(North, Center, South)
+        ElseIf NorthEast.Text = East.Text And East.Text = SouthEast.Text Then
+            winner(NorthEast, East, SouthEast)
+        ElseIf NorthEast.Text = Center.Text And Center.Text = SouthWest.Text Then
+            winner(NorthEast, Center, SouthWest)
+        End If
+    End Function
+
+    Public Function winner(ByVal Button1 As Button, ByVal Button2 As Button, ByVal Button3 As Button)
+        If Button1.Text = "" Or Button2.Text = "" Or Button3.Text = "" Then
+        Else
+            MessageBox.Show(Button1.Text.ToString + "Winner")
+        End If
+
+    End Function
 End Class

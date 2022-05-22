@@ -128,10 +128,12 @@ Partial Class Form1
         'turnLabel
         '
         Me.turnLabel.AutoSize = True
-        Me.turnLabel.Location = New System.Drawing.Point(297, 38)
+        Me.turnLabel.Font = New System.Drawing.Font("Arial Narrow", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.turnLabel.Location = New System.Drawing.Point(188, 35)
         Me.turnLabel.Name = "turnLabel"
-        Me.turnLabel.Size = New System.Drawing.Size(0, 15)
+        Me.turnLabel.Size = New System.Drawing.Size(229, 43)
         Me.turnLabel.TabIndex = 10
+        Me.turnLabel.Text = "Current Player"
         '
         'Form1
         '
